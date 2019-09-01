@@ -1,0 +1,14 @@
+
+tests/Rodolfo.Schmidt.Tests/obj/
+
+src/rodolfo.schmidt/.vs/
+
+src/rodolfo.schmidt/Rodolfo.Schmidt.Api/obj/
+
+src/rodolfo.schmidt/Rodolfo.Schmidt.Application/obj/
+
+src/rodolfo.schmidt/Rodolfo.Schmidt.CrossCutting.IoC/obj/
+
+src/rodolfo.schmidt/Rodolfo.Schmidt.Data/obj/
+
+src/rodolfo.schmidt/Rodolfo.Schmidt.Domain/obj/
