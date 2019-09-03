@@ -12,3 +12,15 @@ src/rodolfo.schmidt/Rodolfo.Schmidt.CrossCutting.IoC/obj/
 src/rodolfo.schmidt/Rodolfo.Schmidt.Data/obj/
 
 src/rodolfo.schmidt/Rodolfo.Schmidt.Domain/obj/
+
+tests/Rodolfo.Schmidt.Tests/bin/
+
+src/rodolfo.schmidt/Rodolfo.Schmidt.Domain/bin/
+
+src/rodolfo.schmidt/Rodolfo.Schmidt.Data/bin/
+
+src/rodolfo.schmidt/Rodolfo.Schmidt.CrossCutting.IoC/bin/
+
+src/rodolfo.schmidt/Rodolfo.Schmidt.Application/bin/
+
+src/rodolfo.schmidt/Rodolfo.Schmidt.Api/bin/
