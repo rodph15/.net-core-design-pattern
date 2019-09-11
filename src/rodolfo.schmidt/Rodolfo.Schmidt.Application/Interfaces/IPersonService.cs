@@ -10,7 +10,7 @@ namespace Rodolfo.Schmidt.Application.Interfaces
     public interface IPersonService
     {
         Task<(bool Saved, string Message)> CreatePerson(PersonDto personDto);
-        Task<(bool Updated, string Message)> UpdatePerson(PersonDto personDto);
+        Task<(bool Updated, string Message, Person person)> UpdatePerson(PersonDto personDto);
         Task<(bool Deleted, string Message)> DeletePerson(int id);
         Task<Person> GetPersonById(int id);
         Task<IEnumerable<Person>> GetPeople();

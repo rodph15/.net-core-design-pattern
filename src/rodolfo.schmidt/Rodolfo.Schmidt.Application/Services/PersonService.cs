@@ -52,16 +52,16 @@ namespace Rodolfo.Schmidt.Application.Services
 
         public async Task<Person> GetPersonById(int id) => await _personRepository.GetById(id);
 
-        public async Task<(bool Updated, string Message)> UpdatePerson(PersonDto personDto)
+        public async Task<(bool Updated, string Message, Person person)> UpdatePerson(PersonDto personDto)
         {
             var person = await _personRepository.GetById(personDto.Id);
 
             _mapper.Map(personDto, person);
 
             if (!await _unitOfWork.CommitAsync())
-                return (false, "Trouble happened, try again later!");
+                return (false, "Trouble happened, try again later!", null);
 
-            return (true, "Person has been updated successfuly");
+            return (true, "Person has been updated successfuly", person);
 
         }
     }
